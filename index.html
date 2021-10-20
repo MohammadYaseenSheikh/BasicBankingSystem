@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <title>Banking System</title>
+</head>
+<body>
+        <nav class="nav-wrapper blue">
+            <div class="container">
+                <a href="#" class="brand-logo left hide-on-med-and-down">MY Bank</a>
+                <a href="#" class="brand-logo center hide-on-large-only"><i class="material-icons" right>account_balance</i>MY Bank</a>
+                <a href="#" class="sidenav-trigger hide-on-large-only" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="account_holders.php">Account holders</a></li>
+                    <li><a href="acc_transactions.php">History</a></li>
+                    <li><a href="https://rzp.io/l/YnEGHCxbW">Donate</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-links">
+            <br>
+            <li><a href="#" style="border-radius: 50px;margin-left: 10px;margin-right: 10px;" class="waves-effect waves-blue blue white-text"><i class="material-icons right white-text">home</i>Home</a></li><br>
+            <li><a href="account_holders.php" style="border-radius: 50px;margin-left: 10px;margin-right: 10px;" class="waves-effect waves-blue blue white-text"><i class="material-icons right white-text">group</i>Account Holder's</a></li><br>
+            <li><a href="acc_transactions.php" style="border-radius: 50px;margin-left: 10px;margin-right: 10px;" class="waves-effect waves-blue blue white-text"><i class="material-icons right white-text">history</i>History</a></li><br>
+            <li><a href="https://rzp.io/l/YnEGHCxbW" style="border-radius: 50px;margin-left: 10px;margin-right: 10px;" class="waves-effect waves-blue blue white-text"><i class="material-icons right white-text">savings</i>Donate</a></li><br>
+        </ul>
+
+    <div class="container">
+        <h1 class="hide-on-small-only blue-text" id="main_head">Banking System</h1>
+        <h3 class="hide-on-med-and-up blue-text" id="main_head">Banking System</h3>
+        <h6>Making Banking Easier.</h6>
+        <br><br><br>
+        <a href="transfer_fund.php" class="btn waves-effect waves-light blue pulse">Transfer Fund</a>
+        <video src=""></video>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+
+        })
+    </script>
+              
+    <footer style="position: absolute;bottom: 0;width: 100%;" class="center blue white-text">
+        <p>
+            &copy 2021.<br>
+            <b>Designed by Mohammad Yaseen Sheikh</b><br>
+            The Sparks Foundation<br>
+        </p>
+</footer>
+</body>
+</html>
